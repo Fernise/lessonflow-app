@@ -6,6 +6,16 @@
 
 A language-teacher workspace with student memory, lesson planning, reusable materials, weekly preparation and contextual AI generation.
 
+## Preview
+
+![LessonFlow landing page with an illustrative dashboard preview](docs/assets/preview.png)
+
+The local landing page includes an illustrative dashboard preview. This is not a capture of an authenticated teacher workspace.
+
+<!-- Future screenshots: authenticated workspace with fictional demo data only.
+Student context, lesson planner, materials library.
+Add verified captures here; do not insert broken image paths or real records. -->
+
 [![CI](https://github.com/Fernise/lessonflow-app/actions/workflows/ci.yml/badge.svg)](https://github.com/Fernise/lessonflow-app/actions/workflows/ci.yml)
 
 **Technology:** Next.js · React · TypeScript · Tailwind CSS · Supabase · jsPDF
@@ -21,19 +31,24 @@ For language teachers who want lesson preparation to build on what they already 
 - Student-aware AI generation for speaking, vocabulary, quizzes and listening.
 - Supabase authentication/RLS, a reusable materials library and PDF export.
 
+## Screenshots
+
+<details>
+<summary>Mobile view</summary>
+
+<img src="docs/assets/mobile-preview.png" width="390" alt="LessonFlow landing page on a mobile screen" />
+
+The actual landing page, including its illustrative dashboard. Authenticated workspace captures remain pending.
+
+</details>
+
 ## Project status
 
 MVP software for configured teacher workspaces. Database, authentication, OAuth and AI integrations require the operator’s own accounts. The public edition removes personal administrator identities and uses a server-managed feedback-admin claim.
 
-## Preview
-
-![Local lessonflow-app interface](docs/assets/preview.png)
-
-Captured from a local source-only preview without real accounts or private records.
-
 ## Quick start
 
-Requires Node.js 22+ and a separate Supabase development project.
+Requires Node.js 22 through 26 and a separate Supabase development project.
 
 ```sh
 git clone https://github.com/Fernise/lessonflow-app.git
