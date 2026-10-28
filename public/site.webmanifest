@@ -1,0 +1,17 @@
+{
+  "name": "LessonFlow",
+  "short_name": "LessonFlow",
+  "description": "Prepare recurring English lessons faster with student memory, reusable materials, and weekly prep.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#FFF5F8",
+  "theme_color": "#FF4F7B",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
