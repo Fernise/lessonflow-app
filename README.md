@@ -1,4 +1,6 @@
-![LessonFlow — Less preparation friction. More context for every lesson.](docs/assets/banner.svg)
+<p align="center">
+  <img src="docs/assets/project-logo.svg" width="104" alt="LessonFlow project logo" />
+</p>
 
 # LessonFlow
 
@@ -6,12 +8,17 @@ Less preparation friction. More context for every lesson.
 
 [![CI](https://github.com/Fernise/lessonflow-app/actions/workflows/ci.yml/badge.svg)](https://github.com/Fernise/lessonflow-app/actions/workflows/ci.yml)
 [![License: reserved](https://img.shields.io/badge/license-All_rights_reserved-52646b)](LICENSE)
+[![Built with Codex](https://img.shields.io/badge/Built_with-Codex-5B5BD6)](#development-approach)
 
 A language-teacher workspace with student memory, lesson planning, reusable materials, weekly preparation and contextual AI generation.
 
 **Technology:** Next.js · React · TypeScript · Tailwind CSS · Supabase · jsPDF
 
+[Overview](#what-it-does) · [Quick start](#quick-start) · [Architecture](docs/ARCHITECTURE.md) · [Verification](docs/VERIFICATION.md)
+
 ## What it does
+
+For language teachers who want lesson preparation to build on what they already know about each student.
 
 - Student profiles, learning goals and structured teaching memory.
 - Lesson planning with completion, saved materials and weekly preparation.
@@ -79,6 +86,12 @@ Unit tests cover generation contracts, CEFR adaptations, student-memory behavior
 - [Security policy](SECURITY.md)
 - [Contribution guidance](CONTRIBUTING.md)
 - [Third-party notices](THIRD_PARTY_NOTICES.md)
+
+## Development approach
+
+Created and directed by **[Fernando · @Fernise](https://github.com/Fernise)** using agentic programming with **OpenAI Codex**. Product direction, requirements and final decisions are the author’s; coding agents contributed to implementation, refactoring, documentation and testing.
+
+See the [verification record](docs/VERIFICATION.md) for completed checks and known limitations.
 
 ## License
 
